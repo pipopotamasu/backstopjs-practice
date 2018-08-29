@@ -11,6 +11,7 @@
   },
   "scripts": {
     "backstop-ref": "./node_modules/.bin/backstop reference",
-    "backstop-test": "./node_modules/.bin/backstop test"
+    "backstop-test": "./node_modules/.bin/backstop test",
+    "backstop-report": "./node_modules/.bin/backstop openReport"
   }
 }
