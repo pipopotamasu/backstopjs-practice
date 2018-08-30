@@ -7,11 +7,13 @@
     "backstopjs": "^3.5.6"
   },
   "dependencies": {
-    "bootstrap": "^4.1.3"
+    "bootstrap": "^4.1.3",
+    "serve": "^10.0.0"
   },
   "scripts": {
     "backstop-ref": "./node_modules/.bin/backstop reference",
     "backstop-test": "./node_modules/.bin/backstop test",
-    "backstop-report": "./node_modules/.bin/backstop openReport"
+    "backstop-report": "./node_modules/.bin/backstop openReport",
+    "server": "./node_modules/serve/bin/serve.js"
   }
 }
